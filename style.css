@@ -1,0 +1,512 @@
+/* common shared styles*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+.icon-section {
+  display: flex;
+}
+
+.icon-section img {
+  width: 50px;
+  height: 30px;
+  padding-top: 28%;
+  justify-content: space-between;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-left: 5%;
+  padding-left: 5%;
+  background-color: whitesmoke;
+  max-width: 100%;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+.text-primary {
+  color: #FD6E0A;
+}
+
+.btn-primary {
+  border-radius: 50px;
+  background: #cf2080;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 35px;
+}
+
+.btn-primary-one {
+  background-color: #b4b2b2;
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+}
+
+.btn-primary-two {
+  border-radius: 50px;
+  background: rgb(87, 194, 236);
+  border: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 35px;
+}
+
+.btn-primary-three {
+  border-radius: 50px;
+  background: #ec6cb3;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 35px;
+  margin-left: 45%;
+}
+
+.btn-primary-career {
+  background: white;
+  border-radius: 50px;
+  border: 0;
+  color: hotpink;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 35px;
+ 
+}
+
+.banner-dot-title {
+  font-size: 80px;
+  font-weight: 600;
+  background-color: red;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #ffa365, #cc0099);
+  background-size: 100%;
+  background-repeat: repeat;
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin-top: 8px;
+  margin: auto;
+
+}
+
+.banner-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+
+}
+
+.banner .profile-pic {
+  width: 500px;
+  margin-right: 10%;
+}
+
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 800px;
+}
+
+/* gamer section styles */
+
+.gamer-title {
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+
+}
+
+.gamer-title-gradient {
+  font-size: 40px;
+  font-weight: 400;
+  background-color: red;
+  padding-left: 10%;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(45deg, #ffa365, #cc0099);
+  background-size: 100%;
+  background-repeat: repeat;
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  margin-top: 8px;
+  margin: auto;
+}
+
+.gamer-section .profile-pic {
+  width: 600px;
+  margin-left: 3%;
+}
+
+.gamer-section {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gamer-content {
+  max-width: 800px;
+  margin-left: 2%;
+  margin-right: 4%;
+}
+
+.gamer-description {
+  font-size: 12px;
+  /* margin-left: 3%; */
+
+  padding: 10px;
+  width: 300px;
+
+  text-align: justify;
+}
+
+/* funny videos section styles */
+.container {
+  padding-top: 70px;
+}
+
+.funny-videos-section {
+  max-width: 100%;
+  padding-top: 100%;
+  padding: 50px 50px 30px 50px;
+  background-color: #FFFFFF;
+}
+
+.funny-title {
+  font-weight: 100px;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: rgb(5, 5, 5);
+
+}
+
+.funny-title-description {
+  font-size: 15px;
+  color: #474747;
+}
+
+.funny-videos-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+
+}
+
+.funny-video-item {
+  box-shadow: 8px 8px 8px gray;
+  display: grid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.funny-video-item img {
+  width: 100%;
+}
+
+.item-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 7px;
+  text-align: center;
+}
+
+
+/*  <!-- Features you will love & enjoy --> */
+
+.feature-enjoy-section {
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+
+.feature-title {
+  padding: 10px;
+  font-size: 40px;
+  padding-bottom: 10px;
+  line-height: 50px;
+}
+
+.feature-left-side {
+  flex: 1;
+  padding-top: 60px;
+  margin-left: 150px;
+}
+
+.feature-right-side {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.feature-right-side .image-1 img {
+  background-color: rgba(255, 127, 80, 0.726);
+  /* border: 1px solid coral; */
+  width: 400px;
+  height: 450px;
+  margin-left: 45px;
+  border-radius: 15px;
+
+}
+
+.feature-right-side .experience-button .image-2 img {
+  width: 250px;
+  height: 300px;
+  margin-left: -85px;
+  margin-top: -250px;
+  /* margin-right: -50px; */
+
+}
+
+/* .feature-right-side .image-1:hover img{
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+} */
+.feature-text {
+  font-size: 15px;
+}
+
+
+
+/* extra section two section */
+.extra-section-two {
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+
+.extra-two-title {
+  padding: 10px;
+  font-size: 40px;
+  padding-bottom: 10px;
+  line-height: 50px;
+}
+
+.extra-two-left-side {
+  flex: 1;
+  padding-top: 60px;
+  margin-left: 250px;
+}
+
+.extra-two-right-side {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.extra-two-left-side .image-1 img {
+  background-color: rgba(255, 127, 80, 0.726);
+  /* border: 1px solid coral; */
+  width: 400px;
+  height: 450px;
+  margin-left: 45px;
+  border-radius: 15px;
+
+}
+
+.extra-two-left-side .experience-button .image-2 img {
+  width: 250px;
+  height: 300px;
+  margin-left: -85px;
+  margin-top: -250px;
+  /* margin-right: -50px; */
+
+}
+
+/* .feature-right-side .image-1:hover img{
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+} */
+.feature-text {
+  font-size: 15px;
+}
+
+
+/* career section styles */
+.career-section {
+  display: flex;
+  padding-bottom: 150px;
+  padding-top: 20px;
+  background-color: #cc0099;
+  color: white;
+  height: 400px;
+
+}
+
+.career-title {
+  padding: 10px;
+  font-size: 30px;
+  padding-bottom: 10px;
+  line-height: 50px;
+}
+
+.career-left-side {
+  flex: 1;
+  padding-top: 60px;
+  margin-left: 150px;
+}
+
+.career-right-side {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.career-right-side img {
+
+  width: 700px;
+  height: 500px;
+  margin-left: 45px;
+  border-radius: 15px;
+
+}
+
+
+.feature-text {
+  font-size: 15px;
+}
+
+/* extra icon section styles */
+.extra-icon-section{
+  padding-top: 10%;
+  margin-left: 10%;
+
+}
+.extra-icon-section-img-container{
+  padding-top: 3%;
+  margin-left: 8%;
+  margin-right: 5%;
+  display: flex;
+  padding-left: 6px;
+  gap: 10px;
+ 
+}
+.extra-icon-section-img2-container{
+  padding-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  padding-left: 6px;
+  gap: 10px;
+ 
+}
+.btn-icons {
+  border: none;
+}
+.btn-icons:hover {
+  background-color: #3e8e41;
+  border: 1px solid palevioletred;
+  border-radius: 40px;
+  padding: 10px 30px; 
+  
+}
+.btn-icons:hover img{
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+}
+
+
+
+/* footer style */
+footer {
+
+  gap: 100px;
+  background: black;
+  margin-top: 200px;
+  padding: 130px 200px;
+  
+}
+
+.footer-column {
+  width: 50%;
+}
+
+
+
+/* responsive section using media query */
+@media only screen and (min-width:601px) and (max-width:800px) {
+  .funny-videos-items {
+      grid-template-columns: 1fr 1fr;
+      padding-top: 200%;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .extra-icon-section .extra-icon-section-img-container{
+      flex-direction: column;
+      align-items: center;
+      padding: 60px;
+      padding-top: 80%;
+  }
+}
+@media only screen and (max-width:800px) {
+  .extra-icon-section .extra-icon-section-img2-container{
+      flex-direction: column;
+      align-items: center;
+      padding: 60px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .career-section {
+      flex-direction: column;
+      align-items: center;
+  }
+  .career-left-side {
+      width: 90%;
+  }
+  .career-right-side {
+    
+      width: 50%;
+      margin-right: 70%;
+      padding-top: 25%;
+  }
+  
+}
