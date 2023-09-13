@@ -471,6 +471,15 @@ footer {
 
 
 /* responsive section using media query */
+@media only screen and (max-width:800px){
+  .nav-container{
+    flex-direction: column;
+   
+  }
+}
+
+
+
 @media only screen and (max-width:600px) {
   .funny-videos-items {
       grid-template-columns: 1fr;
