@@ -463,6 +463,34 @@ footer {
   padding: 130px 200px;
   
 }
+.service-item{
+  color: #FFFFFF;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  margin-left: 15%;
+}
+.footer-icon-section{
+  padding-top: 3%;
+  display: flex;
+  margin-left: 35%;
+  gap: 20px;
+}
+.footer-icon-section img{
+  width: 30px;
+  height: 40px;
+  
+}
+.extra-policy-section{
+  padding-top: 5%;
+  color: gray;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-left: 20%;
+}
 
 .footer-column {
   width: 50%;
