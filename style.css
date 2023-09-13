@@ -471,6 +471,16 @@ footer {
 
 
 /* responsive section using media query */
+@media only screen and (max-width:600px) {
+  .funny-videos-items {
+      grid-template-columns: 1fr;
+      padding-top: 30px;
+  }
+  .container{
+    padding-top: 200%;
+  }
+ 
+}
 
 @media only screen and (min-width:601px) and (max-width:800px) {
   .funny-videos-items {
