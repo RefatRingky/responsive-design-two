@@ -510,3 +510,17 @@ footer {
   }
   
 }
+
+@media only screen and (max-width:800px) {
+  .feature-enjoy-section {
+      flex-direction: column;
+      align-items: center;
+  }
+  .feature-left-side {
+      width: 90%;
+  }
+  .feature-right-side {
+      width: 90%;
+  }
+  
+}
