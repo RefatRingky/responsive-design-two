@@ -471,6 +471,7 @@ footer {
 
 
 /* responsive section using media query */
+
 @media only screen and (min-width:601px) and (max-width:800px) {
   .funny-videos-items {
       grid-template-columns: 1fr 1fr;
@@ -520,6 +521,19 @@ footer {
       width: 90%;
   }
   .feature-right-side {
+      width: 90%;
+  }
+  
+}
+@media only screen and (max-width:800px) {
+  .extra-section-two {
+      flex-direction: column;
+      align-items: center;
+  }
+  .extra-two-left-side{
+      width: 90%;
+  }
+  .extra-two-right-side {
       width: 90%;
   }
   
