@@ -488,7 +488,19 @@ footer {
       padding-top: 200%;
   }
 }
+@media only screen and (max-width:800px){
+  .banner{
+    flex-direction: column;
+   
+  }
+}
 
+@media only screen and (max-width:800px){
+  .gamer-section{
+    flex-direction: column;
+   
+  }
+}
 @media only screen and (max-width:800px) {
   .extra-icon-section .extra-icon-section-img-container{
       flex-direction: column;
